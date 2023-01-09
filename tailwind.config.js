@@ -12,5 +12,5 @@ module.exports = {
       // https://vercel.com/design/color
     },
   },
-  // plugins: [require('@tailwindcss/forms')],
+  plugins: [require('tailwindcss-fluid-spacing'),],
 };
