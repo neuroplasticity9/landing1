@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // transpilePackages: ['react-confirm-alert', 'react-date-picker', 'react-konva'],
+  images: {
+    domains: ['psg.mediacdn.vn'] // config để allow ảnh
+  },
   eslint: {
     dirs: ['.']
   },
