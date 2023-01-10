@@ -100,7 +100,7 @@ const Index = () => {
             </div>
           </section>
           <section className="page page2 relative h-[46.875vw]">
-          <Image
+            <Image
               className="absolute left-[2%] top-[119vw] h-[auto] w-[97%] animate-wobble transition-all hover:saturate-150 md:left-[15vw] md:top-[19vw] md:h-[12.031vw] md:w-[28.490vw]"
               src="/images/chon-tuong-khoi-nghiep.png"
               width={547}
@@ -108,25 +108,53 @@ const Index = () => {
               alt="Chọn tướng khởi nghiệp"
             />
 
-
-            <label htmlFor="tuong1" className="peer-checked/tuong1:text-sky-500 relative">
-            <Image
-              className=""
-              src="/images/tuong1.png"
-              width={547}
-              height={231}
-              alt="Chọn tướng khởi nghiệp"
-            />
+            <input id="ngochoang" className="peer/ngochoang hidden" type="radio" name="status" />
+            <label htmlFor="ngochoang" className="absolute top-[35.5vw] left-[12.5vw] cursor-pointer">
+              <Image className="h-[7.396vw] w-[7.396vw]" src="/images/tuong-ngoc-hoang-dai-de-check.png" width={142} height={142} alt="Ngọc hoàng đại đế thumbnail" />
             </label>
-            <input id="tuong1" className="peer/tuong1 hidden" type="radio" name="status" checked />
+            <div className="absolute top-[17vw] right-[8vw] hidden animate-fadeIn peer-checked/ngochoang:block">
+              <Image className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-ngoc-hoang-dai-de.png" width={774} height={787} alt="Ngọc hoàng đại đế" />
+            </div>
+            <label htmlFor="ngochoang" className="absolute top-[35.5vw] left-[12.4vw] animate-fadeIn cursor-pointer peer-checked/ngochoang:hidden">
+              <Image className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            </label>
+
+            <input id="holy" className="peer/holy hidden" type="radio" name="status" checked />
+            <label htmlFor="holy" className="absolute top-[35.5vw] left-[22.2vw] cursor-pointer">
+              <Image className="h-[7.396vw] w-[7.396vw]" src="/images/tuong-cuu-vi-ho-ly-check.png" width={142} height={142} alt="Cửu vĩ hồ ly thumbnail" />
+            </label>
+            <div className="absolute top-[17vw] right-[8vw] hidden animate-fadeIn peer-checked/holy:block">
+              <Image className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-cuu-vi-ho-ly.png" width={774} height={787} alt="Cửu vĩ hồ ly" />
+            </div>
+            <label htmlFor="holy" className="absolute top-[35.5vw] left-[22.1vw] animate-fadeIn cursor-pointer peer-checked/holy:hidden">
+              <Image className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            </label>
+
+            <input id="duongtien" className="peer/duongtien hidden" type="radio" name="status" checked />
+            <label htmlFor="duongtien" className="absolute top-[35.5vw] left-[32.2vw] cursor-pointer">
+              <Image className="h-[7.396vw] w-[7.396vw]" src="/images/tuong-duong-tien-check.png" width={142} height={142} alt="Duong Tien thumbnail" />
+            </label>
+            <div className="absolute top-[17vw] right-[8vw] hidden animate-fadeIn peer-checked/holy:block">
+              <Image className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-duong-tien.png" width={774} height={787} alt="Cửu vĩ hồ ly" />
+            </div>
+            <label htmlFor="duongtien" className="absolute top-[35.5vw] left-[32.1vw] animate-fadeIn cursor-pointer peer-checked/duongtien:hidden">
+              <Image className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            </label>
+
+            <div
+              className="absolute cursor-pointer opacity-0  transition-all peer-checked/ngochoang:top-[34.45vw] peer-checked/ngochoang:left-[11.7vw] peer-checked/holy:top-[34.45vw]
+                peer-checked/holy:left-[21.4vw] peer-checked/duongtien:left-[21.4vw] peer-checked/ngochoang:opacity-100
+                peer-checked/holy:opacity-100 peer-checked/duongtien:opacity-100
+            ">
+              <Image className="h-[9.271vw] w-[9.271vw]" src="/images/tuong-select.png" width={179} height={178} alt="choice" />
+            </div>
 
             <input id="published" className="peer/published" type="radio" name="status" />
             <label htmlFor="published" className="peer-checked/published:text-sky-500">
               Published
             </label>
 
-            <div className="hidden peer-checked/tuong1:block animate-fadeIn">Drafts are only visible to administrators.</div>
-            <div className="hidden peer-checked/published:block animate-fadeIn">Your post will be publicly visible on your site.</div>
+            <div className="hidden animate-fadeIn peer-checked/published:block">Your post will be publicly visible on your site.</div>
           </section>
           <div className="page page3 relative"></div>
         </section>
