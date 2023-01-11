@@ -460,7 +460,7 @@ const Index = () => {
               src="/images/lo-trinh-ra-mat.png"
               width={493}
               height={292}
-              className="absolute transition-all hover:animate-headShake hover:saturate-150 md:top-[35vw] md:left-[4vw] md:h-[15.208vw] md:w-[25.677vw]"
+              className="absolute top-[35vw] left-[23vw] w-[54vw] transition-all hover:animate-headShake hover:saturate-150 md:top-[35vw] md:left-[4vw] md:h-[15.208vw] md:w-[25.677vw]"
               alt={'Lộ trình ra mắt'}
             />
 
@@ -469,7 +469,7 @@ const Index = () => {
               src="/images/mapicon-1.png"
               width={158}
               height={162}
-              className="absolute animate-twBounce transition-all animate-infinite hover:saturate-150 md:top-[31.8vw] md:left-[65.6vw] md:h-[8.438vw] md:w-[8.229vw]"
+              className="absolute animate-twBounce transition-all animate-infinite hover:saturate-150 w-[15vw] top-[83vw] left-[53vw] md:top-[31.8vw] md:left-[65.6vw] md:h-[8.438vw] md:w-[8.229vw]"
               alt={'Lộ trình ra mắt'}
             />
 
@@ -478,7 +478,7 @@ const Index = () => {
               src="/images/mapicon-2.png"
               width={132}
               height={95}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[33vw] md:left-[52vw] md:h-[4.94792vw] md:w-[6.875vw]"
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[13vw] top-[85vw] left-[28vw] md:top-[33vw] md:left-[52vw] md:h-[4.94792vw] md:w-[6.875vw]"
               alt={'Lộ trình ra mắt'}
             />
 
@@ -487,7 +487,7 @@ const Index = () => {
               src="/images/mapicon-3.png"
               width={88}
               height={121}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[44.5vw] md:left-[48.1vw] md:h-[6.30208vw] md:w-[4.58333vw]"
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[104vw] left-[22vw] md:top-[44.5vw] md:left-[48.1vw] md:h-[6.30208vw] md:w-[4.58333vw]"
               alt={'Lộ trình ra mắt'}
             />
 
@@ -496,7 +496,7 @@ const Index = () => {
               src="/images/mapicon-4.png"
               width={99}
               height={91}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[51vw] md:left-[50.1vw] md:h-[5.15625vw] md:w-[4.73958vw]"
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[118vw] left-[26vw] md:top-[51vw] md:left-[50.1vw] md:h-[5.15625vw] md:w-[4.73958vw]"
               alt={'Lộ trình ra mắt'}
             />
             <Image
@@ -504,7 +504,7 @@ const Index = () => {
               src="/images/mapicon-5.png"
               width={98}
               height={150}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[45vw] md:left-[68.1vw] md:h-[7.8125vw] md:w-[5.10417vw]"
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[107vw] left-[59vw] md:top-[45vw] md:left-[68.1vw] md:h-[7.8125vw] md:w-[5.10417vw]"
               alt={'Lộ trình ra mắt'}
             />
             <Image
@@ -512,7 +512,7 @@ const Index = () => {
               src="/images/mapicon-6.png"
               width={93}
               height={103}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[49.1vw] md:left-[81.1vw] md:h-[5.36458vw] md:w-[4.84375vw]"
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[113vw] left-[82vw] md:top-[49.1vw] md:left-[81.1vw] md:h-[5.36458vw] md:w-[4.84375vw]"
               alt={'Lộ trình ra mắt'}
             />
           </div>
