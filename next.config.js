@@ -2,7 +2,7 @@
 const nextConfig = {
   // transpilePackages: ['react-confirm-alert', 'react-date-picker', 'react-konva'],
   images: {
-    unoptimized: true
+    // unoptimized: true
   },
   eslint: {
     dirs: ['.']
