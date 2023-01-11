@@ -2,12 +2,12 @@
 const nextConfig = {
   // transpilePackages: ['react-confirm-alert', 'react-date-picker', 'react-konva'],
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
   eslint: {
     dirs: ['.']
   },
-  // basePath: '',
+  basePath: '',
   poweredByHeader: false,
   // trailingSlash: true,
   reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
@@ -17,7 +17,7 @@ const nextConfig = {
     // appDir: true
     // runtime: 'experimental-edge'
     // esmExternals: 'loose',
-  },
+  }
   // exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
   //   return {
   //     '/': { page: '/' },
