@@ -6,7 +6,7 @@ const Index = () => {
       <main className="relative h-[548.594vw] w-full select-none overflow-hidden md:h-[182.2vw]">
         <nav className="absolute top-0 z-30 flex w-full md:hidden">
           <Image placeholder="empty" src="/images/mobile/menutop.png" width={640} height={111} className="w-full" alt={'Background landing'} />
-          <Link href="/" title="App Lục Giới Pong Thần">
+          <Link href="https://lucgioiphongthan.vn/" title="App Lục Giới Pong Thần">
             <Image
               placeholder="empty"
               src="/images/mobile/logo-app.png"
@@ -19,15 +19,15 @@ const Index = () => {
           <Link href="/" title="Giftcode" className="absolute right-[30%] top-[43%] block h-[45%] w-[26%]">
             <span className="hidden">Giftcode</span>
           </Link>
-          <Link href="/" title="Trang chủ" className="absolute right-[15%] top-[20%] block h-[50%] w-[10%]">
+          <Link href="https://lucgioiphongthan.vn/" title="Trang chủ" className="absolute right-[15%] top-[20%] block h-[50%] w-[10%]">
             <span className="hidden">Home</span>
           </Link>
-          <Link href="/" title="Facebook" className="h-[50% absolute right-[3%] top-[20%] block w-[10%]">
+          <Link href="https://www.facebook.com/LucGioiPhongThan.SohaGame" title="Facebook" className="h-[50% absolute right-[3%] top-[20%] block w-[10%]">
             <span className="hidden">Facebook</span>
           </Link>
         </nav>
         <div className="absolute top-0 left-[50%]  z-30 hidden h-[2.552vw] translate-x-[-50%] pt-[1.406vw] md:flex">
-          <Link href="/" title="Trang chủ">
+          <Link href="https://lucgioiphongthan.vn/" title="Trang chủ">
             <Image
               placeholder="empty"
               className="mr-[1.510vw] h-[2.552vw] w-[8.4375vw] transition-all hover:scale-105 hover:saturate-200"
@@ -37,7 +37,7 @@ const Index = () => {
               alt="Trang chủ"
             />
           </Link>
-          <Link href="/" title="Group">
+          <Link href="https://www.facebook.com/groups/lucgioiphongthan" title="Group">
             <Image
               placeholder="empty"
               className="mr-[13.802vw] h-[2.552vw] w-[8.4375vw] transition-all hover:scale-105 hover:saturate-200"
@@ -47,7 +47,7 @@ const Index = () => {
               alt="Group button"
             />
           </Link>
-          <Link href="/" title="Fanpage">
+          <Link href="https://www.facebook.com/LucGioiPhongThan.SohaGame" title="Fanpage">
             <Image
               placeholder="empty"
               className="mr-[1.510vw] h-[2.552vw] w-[8.4375vw] transition-all hover:scale-105 hover:saturate-200"
@@ -68,7 +68,7 @@ const Index = () => {
             />
           </Link>
         </div>
-        <Link href="/">
+        <Link href="https://lucgioiphongthan.vn/">
           <Image
             placeholder="empty"
             className="animate-in zoom-in absolute left-[50%] top-[18vw] z-40 h-[auto] w-[25%] translate-x-[-50%] transition-all hover:scale-105 md:top-[1%] md:h-[7.7604vw] md:w-[9.0625vw]"
@@ -130,7 +130,7 @@ const Index = () => {
               alt="Startup thiên đình"
             />
 
-            <Link href="/" title="Tải game" className="cursor-pointer">
+            <Link href="https://www.facebook.com/LucGioiPhongThan.SohaGame" title="Tải game" className="cursor-pointer">
               <Image
                 placeholder="empty"
                 className="absolute left-[30%] top-[144.6vw] z-50 flex h-[auto] w-[45.03125vw] animate-heartBeat cursor-pointer animate-infinite hover:scale-[101%] hover:saturate-150 md:top-[48.6vw] md:left-[calc(50%-17.031vw/2)] md:h-[5.2083vw] md:w-[17.03125vw]"
@@ -143,14 +143,14 @@ const Index = () => {
             <div className="absolute left-[50%] top-[159vw] flex translate-x-[-50%] -rotate-[4deg] whitespace-nowrap italic md:top-[54vw]">
               Nhớ ấn nút phía trên để nhận rương thần tướng SS nha
             </div>
-            <div className='absolute top-[80%] left-[70%]'>
+            <div className="absolute top-[80%] left-[70%]">
               <div className="flare animate-pulse animate-infinite">
                 <div className="subflare subflare1"></div>
                 <div className="subflare subflare2"></div>
                 <div className="subflare subflare3"></div>
               </div>
             </div>
-            <div className='absolute top-[85%] left-[40%]'>
+            <div className="absolute top-[85%] left-[40%]">
               <div className="flare animate-pulse animate-infinite">
                 <div className="subflare subflare1"></div>
                 <div className="subflare subflare2"></div>
@@ -401,7 +401,7 @@ const Index = () => {
               </label>
 
               <div
-                className="animate-pulse1 absolute cursor-pointer opacity-0 transition-all  animate-infinite 
+                className="absolute animate-pulse cursor-pointer opacity-0 transition-all  animate-infinite 
                 peer-checked/ngochoang:top-[105vw] 
                 peer-checked/ngochoang:left-[1.7vw] 
                 peer-checked/holy:top-[105vw] 
@@ -461,6 +461,58 @@ const Index = () => {
               width={493}
               height={292}
               className="absolute transition-all hover:animate-headShake hover:saturate-150 md:top-[35vw] md:left-[4vw] md:h-[15.208vw] md:w-[25.677vw]"
+              alt={'Lộ trình ra mắt'}
+            />
+
+            <Image
+              placeholder="empty"
+              src="/images/mapicon-1.png"
+              width={158}
+              height={162}
+              className="absolute animate-twBounce transition-all animate-infinite hover:saturate-150 md:top-[31.8vw] md:left-[65.6vw] md:h-[8.438vw] md:w-[8.229vw]"
+              alt={'Lộ trình ra mắt'}
+            />
+
+            <Image
+              placeholder="empty"
+              src="/images/mapicon-2.png"
+              width={132}
+              height={95}
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[33vw] md:left-[52vw] md:h-[4.94792vw] md:w-[6.875vw]"
+              alt={'Lộ trình ra mắt'}
+            />
+
+            <Image
+              placeholder="empty"
+              src="/images/mapicon-3.png"
+              width={88}
+              height={121}
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[44.5vw] md:left-[48.1vw] md:h-[6.30208vw] md:w-[4.58333vw]"
+              alt={'Lộ trình ra mắt'}
+            />
+
+            <Image
+              placeholder="empty"
+              src="/images/mapicon-4.png"
+              width={99}
+              height={91}
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[51vw] md:left-[50.1vw] md:h-[5.15625vw] md:w-[4.73958vw]"
+              alt={'Lộ trình ra mắt'}
+            />
+            <Image
+              placeholder="empty"
+              src="/images/mapicon-5.png"
+              width={98}
+              height={150}
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[45vw] md:left-[68.1vw] md:h-[7.8125vw] md:w-[5.10417vw]"
+              alt={'Lộ trình ra mắt'}
+            />
+            <Image
+              placeholder="empty"
+              src="/images/mapicon-6.png"
+              width={93}
+              height={103}
+              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[49.1vw] md:left-[81.1vw] md:h-[5.36458vw] md:w-[4.84375vw]"
               alt={'Lộ trình ra mắt'}
             />
           </div>
