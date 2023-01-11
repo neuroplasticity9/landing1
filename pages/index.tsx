@@ -71,7 +71,7 @@ const Index = () => {
         <Link href="/">
           <Image
             placeholder="empty"
-            className="animate-in zoom-in absolute left-[50%] top-[35%] z-40 h-[auto] w-[25%] translate-x-[-50%] transition-all hover:scale-105 md:top-[1%] md:h-[7.7604vw] md:w-[9.0625vw]"
+            className="animate-in zoom-in absolute left-[50%] top-[18vw] z-40 h-[auto] w-[25%] translate-x-[-50%] transition-all hover:scale-105 md:top-[1%] md:h-[7.7604vw] md:w-[9.0625vw]"
             src="/images/logo.png"
             width={174}
             height={149}
@@ -96,7 +96,7 @@ const Index = () => {
         />
 
         <section className="absolute top-0 left-0 h-[100%] w-[100%]">
-          <section className="page page1 relative h-[46.875vw]">
+          <section className="page page1 relative h-[166vw] md:h-[46.875vw]">
             <Image
               placeholder="empty"
               className="absolute  left-0 top-[19vw] hidden h-[20.573vw] w-[12.500vw] animate-slideInLeft md:block"
@@ -144,8 +144,8 @@ const Index = () => {
               Nhớ ấn nút phía trên để nhận rương thần tướng SS nha
             </div>
           </section>
-          <section className="page page2 relative h-[46.875vw]">
-          <Image
+          <section className="page page2 relative h-[166vw] md:h-[46.875vw]">
+            <Image
               placeholder="empty"
               className="absolute left-0 top-[0%] h-[49.531vw] w-[100vw] scale-150 animate-zoomIn opacity-20 animate-slower animate-infinite"
               src="/images/page2-leaf.png"
@@ -155,7 +155,7 @@ const Index = () => {
             />
             <Image
               placeholder="empty"
-              className="absolute left-[2%] top-[119vw] h-[auto] w-[97%] transition-all hover:animate-headShake hover:saturate-150 md:left-[15vw] md:top-[19vw] md:h-[12.031vw] md:w-[28.490vw]"
+              className="absolute left-[20vw] top-[5vw] h-[auto] w-[60%] transition-all hover:animate-headShake hover:saturate-150 md:left-[15vw] md:top-[19vw] md:h-[12.031vw] md:w-[28.490vw]"
               src="/images/chon-tuong-khoi-nghiep.png"
               width={547}
               height={231}
@@ -164,162 +164,279 @@ const Index = () => {
 
             {/* Ngọc hoàng */}
             <input id="ngochoang" className="peer/ngochoang hidden" type="radio" name="status" defaultChecked />
-            <label htmlFor="ngochoang" className="absolute top-[35.5vw] left-[12.5vw] cursor-pointer">
+            <label htmlFor="ngochoang" className="absolute top-[108vw] left-[4vw] z-10 cursor-pointer md:top-[35.5vw] md:left-[12.5vw]">
               <Image
                 placeholder="empty"
-                className="h-[7.396vw] w-[7.396vw]"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
                 src="/images/tuong-ngoc-hoang-dai-de-check.png"
                 width={142}
                 height={142}
                 alt="Ngọc hoàng đại đế thumbnail"
               />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn peer-checked/ngochoang:block">
+            <div className="absolute left-[4vw] top-[35vw] hidden animate-zoomIn peer-checked/ngochoang:block md:left-auto md:top-[17vw] md:right-[8vw]">
               <Image
                 placeholder="empty"
-                className="h-[40.990vw] w-[40.313vw]"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
                 src="/images/tuong-ngoc-hoang-dai-de.png"
                 width={774}
                 height={787}
                 alt="Ngọc hoàng đại đế"
               />
             </div>
-            <label htmlFor="ngochoang" className="absolute top-[35.5vw] left-[12.4vw] animate-fadeIn cursor-pointer peer-checked/ngochoang:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="ngochoang"
+              className="absolute top-[108vw] left-[4vw] z-20 animate-fadeIn cursor-pointer peer-checked/ngochoang:hidden md:top-[35.5vw] md:left-[12.4vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             {/* Hồ ly */}
             <input id="holy" className="peer/holy hidden" type="radio" name="status" />
-            <label htmlFor="holy" className="absolute top-[35.5vw] left-[21.7vw] cursor-pointer">
+            <label htmlFor="holy" className="absolute top-[108vw] left-[27.7vw] z-10 cursor-pointer md:top-[35.5vw] md:left-[21.7vw]">
               <Image
                 placeholder="empty"
-                className="h-[7.396vw] w-[7.396vw]"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
                 src="/images/tuong-cuu-vi-ho-ly-check.png"
                 width={142}
                 height={142}
                 alt="Cửu vĩ hồ ly thumbnail"
               />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn  peer-checked/holy:block">
-              <Image placeholder="empty" className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-cuu-vi-ho-ly.png" width={774} height={787} alt="Cửu vĩ hồ ly" />
+            <div className="absolute md:left-auto top-[35vw] left-[4vw] hidden animate-zoomIn peer-checked/holy:block md:top-[17vw]  md:right-[8vw]">
+              <Image
+                placeholder="empty"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
+                src="/images/tuong-cuu-vi-ho-ly.png"
+                width={774}
+                height={787}
+                alt="Cửu vĩ hồ ly"
+              />
             </div>
-            <label htmlFor="holy" className="absolute top-[35.5vw] left-[21.6vw] animate-fadeIn cursor-pointer peer-checked/holy:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="holy"
+              className="absolute top-[108vw] left-[27.7vw] z-20 animate-fadeIn cursor-pointer peer-checked/holy:hidden md:top-[35.5vw] md:left-[21.6vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             {/* Duong tien */}
             <input id="duongtien" className="peer/duongtien hidden" type="radio" name="status" />
-            <label htmlFor="duongtien" className="absolute top-[35.5vw] left-[30.8vw] cursor-pointer">
+            <label htmlFor="duongtien" className="absolute top-[108vw] left-[51.1vw] z-10 cursor-pointer md:top-[35.5vw] md:left-[30.8vw]">
               <Image
                 placeholder="empty"
-                className="h-[7.396vw] w-[7.396vw]"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
                 src="/images/tuong-duong-tien-check.png"
                 width={142}
                 height={142}
                 alt="Duong Tien thumbnail"
               />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn  peer-checked/duongtien:block">
-              <Image placeholder="empty" className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-duong-tien.png" width={774} height={787} alt="Duong Tien" />
+            <div className="md:left-auto absolute top-[35vw] left-[5vw] hidden animate-zoomIn peer-checked/duongtien:block md:top-[17vw]  md:right-[8vw]">
+              <Image
+                placeholder="empty"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
+                src="/images/tuong-duong-tien.png"
+                width={774}
+                height={787}
+                alt="Duong Tien"
+              />
             </div>
-            <label htmlFor="duongtien" className="absolute top-[35.5vw] left-[30.7vw] animate-fadeIn cursor-pointer peer-checked/duongtien:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="duongtien"
+              className="absolute top-[108vw] left-[51.1vw] z-20 animate-fadeIn cursor-pointer peer-checked/duongtien:hidden md:top-[35.5vw] md:left-[30.7vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             {/* Hang Nga */}
             <input id="hangnga" className="peer/hangnga hidden" type="radio" name="status" />
-            <label htmlFor="hangnga" className="absolute top-[35.5vw] left-[40vw] cursor-pointer">
-              <Image placeholder="empty" className="h-[7.396vw] w-[7.396vw]" src="/images/tuong-hang-nga-check.png" width={142} height={142} alt="Hang Nga thumbnail" />
+            <label htmlFor="hangnga" className="absolute top-[108vw] left-[74.5vw] z-10 cursor-pointer md:top-[35.5vw] md:left-[40vw]">
+              <Image
+                placeholder="empty"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
+                src="/images/tuong-hang-nga-check.png"
+                width={142}
+                height={142}
+                alt="Hang Nga thumbnail"
+              />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn  peer-checked/hangnga:block">
-              <Image placeholder="empty" className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-hang-nga.png" width={774} height={787} alt="Hang Nga " />
+            <div className="absolute md:left-auto  top-[35vw] left-[4vw] hidden animate-zoomIn peer-checked/hangnga:block md:top-[17vw]  md:right-[8vw]">
+              <Image
+                placeholder="empty"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
+                src="/images/tuong-hang-nga.png"
+                width={774}
+                height={787}
+                alt="Hang Nga "
+              />
             </div>
-            <label htmlFor="hangnga" className="absolute top-[35.5vw] left-[39.9vw] animate-fadeIn cursor-pointer peer-checked/hangnga:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="hangnga"
+              className="absolute top-[108vw] left-[74.5vw] z-20 animate-fadeIn cursor-pointer peer-checked/hangnga:hidden md:top-[35.5vw] md:left-[39.9vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             {/* Quan Am */}
             <input id="quanam" className="peer/quanam hidden" type="radio" name="status" />
-            <label htmlFor="quanam" className="absolute top-[44.5vw] left-[12.5vw] cursor-pointer">
-              <Image placeholder="empty" className="h-[7.396vw] w-[7.396vw]" src="/images/tuong-quan-am-check.png" width={142} height={142} alt="Quan Am thumbnail" />
+            <label htmlFor="quanam" className="absolute top-[131vw] left-[4vw] cursor-pointer md:top-[44.5vw] md:left-[12.5vw]">
+              <Image
+                placeholder="empty"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
+                src="/images/tuong-quan-am-check.png"
+                width={142}
+                height={142}
+                alt="Quan Am thumbnail"
+              />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn  peer-checked/quanam:block">
-              <Image placeholder="empty" className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-quan-am.png" width={774} height={787} alt="Quan Am" />
+            <div className="absolute md:left-auto  top-[35vw] left-[4vw]  md:top-[17vw] md:right-[8vw] hidden animate-zoomIn  peer-checked/quanam:block">
+              <Image
+                placeholder="empty"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
+                src="/images/tuong-quan-am.png"
+                width={774}
+                height={787}
+                alt="Quan Am"
+              />
             </div>
-            <label htmlFor="quanam" className="absolute top-[44.5vw] left-[12.4vw] animate-fadeIn cursor-pointer peer-checked/quanam:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="quanam"
+              className="absolute top-[131vw] left-[4vw] z-20 animate-fadeIn cursor-pointer peer-checked/quanam:hidden md:top-[44.5vw] md:left-[12.4vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             {/* Thông Thiên Giáo Chủ */}
             <input id="thongthien" className="peer/thongthien hidden" type="radio" name="status" />
-            <label htmlFor="thongthien" className="absolute top-[44.5vw] left-[21.7vw] cursor-pointer">
+            <label htmlFor="thongthien" className="absolute top-[131vw] left-[27.7vw] cursor-pointer md:top-[44.5vw] md:left-[21.7vw]">
               <Image
                 placeholder="empty"
-                className="h-[7.396vw] w-[7.396vw]"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
                 src="/images/tuong-thong-thien-giao-chu-check.png"
                 width={142}
                 height={142}
                 alt="Thông Thiên Giáo Chủ thumbnail"
               />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn  peer-checked/thongthien:block">
+            <div className="absolute hidden md:left-auto  top-[35vw] left-[4vw] animate-zoomIn peer-checked/thongthien:block md:top-[17vw] md:right-[8vw]">
               <Image
                 placeholder="empty"
-                className="h-[40.990vw] w-[40.313vw]"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
                 src="/images/tuong-thong-thien-giao-chu.png"
                 width={774}
                 height={787}
                 alt="Thông Thiên Giáo Chủ"
               />
             </div>
-            <label htmlFor="thongthien" className="absolute top-[44.5vw] left-[21.6vw] animate-fadeIn cursor-pointer peer-checked/thongthien:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="thongthien"
+              className="absolute top-[131vw] left-[27.7vw] z-20 animate-fadeIn cursor-pointer peer-checked/thongthien:hidden md:top-[44.5vw] md:left-[21.6vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             {/* Khuong tu nha */}
             <input id="tunha" className="peer/tunha hidden" type="radio" name="status" />
-            <label htmlFor="tunha" className="absolute top-[44.5vw] left-[30.8vw] cursor-pointer">
+            <label htmlFor="tunha" className="absolute top-[131vw] left-[51.1vw] cursor-pointer md:top-[44.5vw] md:left-[30.8vw]">
               <Image
                 placeholder="empty"
-                className="h-[7.396vw] w-[7.396vw]"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
                 src="/images/tuong-khuong-tu-nha-check.png"
                 width={142}
                 height={142}
                 alt="khuong tu nha thumbnail"
               />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn  peer-checked/tunha:block">
-              <Image placeholder="empty" className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-khuong-tu-nha.png" width={774} height={787} alt="Khuong tu nha" />
+            <div className="absolute md:left-auto  top-[35vw] left-[4vw]  md:top-[17vw] md:right-[8vw] hidden animate-zoomIn  peer-checked/tunha:block">
+              <Image
+                placeholder="empty"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
+                src="/images/tuong-khuong-tu-nha.png"
+                width={774}
+                height={787}
+                alt="Khuong tu nha"
+              />
             </div>
-            <label htmlFor="tunha" className="absolute top-[44.5vw] left-[30.7vw] animate-fadeIn cursor-pointer peer-checked/tunha:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="tunha"
+              className="absolute top-[131vw] left-[51.1vw] z-20 animate-fadeIn cursor-pointer peer-checked/tunha:hidden md:top-[44.5vw] md:left-[30.7vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             {/* Ngo Khong */}
             <input id="ngokhong" className="peer/ngokhong hidden" type="radio" name="status" />
-            <label htmlFor="ngokhong" className="absolute top-[44.5vw] left-[40vw] cursor-pointer">
+            <label htmlFor="ngokhong" className="absolute top-[131vw] left-[74.5vw] cursor-pointer md:top-[44.5vw] md:left-[40vw]">
               <Image
                 placeholder="empty"
-                className="h-[7.396vw] w-[7.396vw]"
+                className="w-[20.156vw] md:h-[7.396vw] md:w-[7.396vw]"
                 src="/images/tuong-ton-ngo-khong-check.png"
                 width={142}
                 height={142}
-                alt="khuong tu nha thumbnail"
+                alt="Ngo Khong thumbnail"
               />
             </label>
-            <div className="absolute top-[17vw] right-[8vw] hidden animate-zoomIn  peer-checked/ngokhong:block">
-              <Image placeholder="empty" className="h-[40.990vw] w-[40.313vw]" src="/images/tuong-ton-ngo-khong.png" width={774} height={787} alt="Khuong tu nha" />
+            <div className="absolute md:left-auto  top-[35vw] left-[4vw] md:top-[17vw] md:right-[8vw] hidden animate-zoomIn  peer-checked/ngokhong:block">
+              <Image
+                placeholder="empty"
+                className="h-auto w-[92vw] md:h-[40.990vw] md:w-[40.313vw]"
+                src="/images/tuong-ton-ngo-khong.png"
+                width={774}
+                height={787}
+                alt="Ngo Khong"
+              />
             </div>
-            <label htmlFor="ngokhong" className="absolute top-[44.5vw] left-[39.9vw] animate-fadeIn cursor-pointer peer-checked/ngokhong:hidden">
-              <Image placeholder="empty" className="h-[7.4vw] w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
+            <label
+              htmlFor="ngokhong"
+              className="absolute top-[131vw] left-[74.5vw] z-20 animate-fadeIn cursor-pointer peer-checked/ngokhong:hidden md:top-[44.5vw] md:left-[39.9vw]">
+              <Image placeholder="empty" className="w-[20.2vw] md:h-[7.4vw] md:w-[7.4vw]" src="/images/page2-hover.png" width={142} height={142} alt="check mask" />
             </label>
 
             <div
-              className="absolute animate-pulse cursor-pointer opacity-0 transition-all  animate-infinite peer-checked/ngochoang:top-[34.45vw] peer-checked/ngochoang:left-[11.7vw] peer-checked/holy:top-[34.45vw] 
-                peer-checked/holy:left-[20.95vw] peer-checked/thongthien:left-[20.95vw] peer-checked/duongtien:left-[30vw] peer-checked/tunha:left-[30vw] peer-checked/hangnga:left-[39.2vw] peer-checked/ngokhong:left-[39.2vw] peer-checked/quanam:left-[11.7vw] peer-checked/duongtien:top-[34.45vw] peer-checked/hangnga:top-[34.45vw] peer-checked/quanam:top-[43.45vw] peer-checked/thongthien:top-[43.45vw] peer-checked/ngokhong:top-[43.45vw] peer-checked/tunha:top-[43.45vw] peer-checked/ngochoang:opacity-100
-                peer-checked/holy:opacity-100 peer-checked/duongtien:opacity-100 peer-checked/hangnga:opacity-100 peer-checked/quanam:opacity-100 peer-checked/thongthien:opacity-100 peer-checked/tunha:opacity-100 peer-checked/ngokhong:opacity-100
+              className="animate-pulse1 absolute cursor-pointer opacity-0 transition-all  animate-infinite 
+                peer-checked/ngochoang:top-[105vw] 
+                peer-checked/ngochoang:left-[1.7vw] 
+                peer-checked/holy:top-[105vw] 
+                peer-checked/holy:left-[25.5vw] 
+                peer-checked/thongthien:left-[25.5vw] 
+                peer-checked/duongtien:left-[48.8vw] 
+                peer-checked/tunha:left-[48.8vw] 
+                peer-checked/hangnga:left-[72.3vw] 
+                peer-checked/ngokhong:left-[72.3vw] 
+                peer-checked/quanam:left-[1.7vw] 
+                peer-checked/duongtien:top-[105vw] 
+                peer-checked/hangnga:top-[105vw] 
+                peer-checked/quanam:top-[127.9vw] 
+                peer-checked/thongthien:top-[127.9vw] 
+                peer-checked/ngokhong:top-[127.9vw] 
+                peer-checked/tunha:top-[127.9vw] 
+                peer-checked/ngochoang:opacity-100 
+                peer-checked/holy:opacity-100 
+                peer-checked/duongtien:opacity-100 
+                peer-checked/hangnga:opacity-100 
+                peer-checked/quanam:opacity-100 
+                peer-checked/thongthien:opacity-100 
+                peer-checked/tunha:opacity-100 
+                peer-checked/ngokhong:opacity-100 
+                md:peer-checked/tunha:left-[30vw] 
+                md:peer-checked/hangnga:left-[39.2vw] 
+                md:peer-checked/ngokhong:left-[39.2vw] 
+                md:peer-checked/ngokhong:top-[43.45vw] 
+                md:peer-checked/tunha:top-[43.45vw] 
+                md:peer-checked/quanam:left-[11.7vw] 
+                md:peer-checked/quanam:top-[43.45vw] 
+                md:peer-checked/thongthien:top-[43.45vw] 
+                md:peer-checked/thongthien:left-[20.95vw] 
+                md:peer-checked/holy:top-[34.45vw] 
+                md:peer-checked/holy:left-[20.95vw] 
+                md:peer-checked/ngochoang:top-[34.45vw] 
+                md:peer-checked/ngochoang:left-[11.7vw] 
+                md:peer-checked/duongtien:left-[30vw] 
+                md:peer-checked/duongtien:top-[34.45vw] 
+                md:peer-checked/hangnga:top-[34.45vw] 
             ">
-              <Image placeholder="empty" className="h-[9.271vw] w-[9.271vw]" src="/images/tuong-select.png" width={179} height={178} alt="choice" />
+              <Image
+                placeholder="empty"
+                className="h-[25.625vw] w-[25.625vw] md:h-[9.271vw] md:w-[9.271vw]"
+                src="/images/tuong-select.png"
+                width={179}
+                height={178}
+                alt="choice"
+              />
             </div>
           </section>
           <div className="page page3 relative"></div>
