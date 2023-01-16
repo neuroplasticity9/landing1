@@ -130,7 +130,7 @@ const Index = () => {
               alt="Startup thiên đình"
             />
 
-            <Link href="https://www.facebook.com/LucGioiPhongThan.SohaGame" title="Tải game" className="cursor-pointer">
+            <Link href="https://www.facebook.com/LucGioiPhongThan.SohaGame" title="Tải game" className="hidden cursor-pointer">
               <Image
                 placeholder="empty"
                 className="absolute left-[30%] top-[144.6vw] z-50 flex h-[auto] w-[45.03125vw] animate-heartBeat cursor-pointer animate-infinite hover:scale-[101%] hover:saturate-150 md:top-[48.6vw] md:left-[calc(50%-17.031vw/2)] md:h-[5.2083vw] md:w-[17.03125vw]"
@@ -140,6 +140,18 @@ const Index = () => {
                 alt="Tải game"
               />
             </Link>
+
+            <Link href="https://www.facebook.com/LucGioiPhongThan.SohaGame" title="Dang ky truoc nhan qua" className="cursor-pointer">
+              <Image
+                placeholder="empty"
+                className="absolute left-[30%] top-[146.5vw] z-50 flex h-[auto] w-[45.03125vw] animate-heartBeat cursor-pointer animate-infinite hover:scale-[101%] hover:saturate-150 md:top-[48.6vw] md:left-[calc(50%-22.8125vw/2)] md:h-[5.57292vw] md:w-[22.8125vw]"
+                src="/images/dang-ky-truoc-nhan-qua.png"
+                width={438}
+                height={107}
+                alt="Đăng ký"
+              />
+            </Link>
+
             <div className="absolute left-[50%] top-[159vw] flex translate-x-[-50%] -rotate-[4deg] whitespace-nowrap italic md:top-[54vw]">
               Nhớ ấn nút phía trên để nhận rương thần tướng SS nha
             </div>
@@ -464,57 +476,70 @@ const Index = () => {
               alt={'Lộ trình ra mắt'}
             />
 
-            <Image
-              placeholder="empty"
-              src="/images/mapicon-1.png"
-              width={158}
-              height={162}
-              className="absolute animate-twBounce transition-all animate-infinite hover:saturate-150 w-[15vw] top-[83vw] left-[53vw] md:top-[31.8vw] md:left-[65.6vw] md:h-[8.438vw] md:w-[8.229vw]"
-              alt={'Lộ trình ra mắt'}
-            />
+            <Link href="/#" className="block">
+              <Image
+                placeholder="empty"
+                src="/images/mapicon-1.png"
+                width={158}
+                height={162}
+                className="absolute top-[83vw] left-[53vw] w-[15vw] animate-twBounce transition-all animate-infinite hover:saturate-150 md:top-[31.8vw] md:left-[65.6vw] md:h-[8.438vw] md:w-[8.229vw]"
+                alt={'Lộ trình ra mắt'}
+              />
+            </Link>
 
-            <Image
-              placeholder="empty"
-              src="/images/mapicon-2.png"
-              width={132}
-              height={95}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[13vw] top-[85vw] left-[28vw] md:top-[33vw] md:left-[52vw] md:h-[4.94792vw] md:w-[6.875vw]"
-              alt={'Lộ trình ra mắt'}
-            />
+            <Link href="/#" className="block">
+              <Image
+                placeholder="empty"
+                src="/images/mapicon-2.png"
+                width={132}
+                height={95}
+                className="absolute top-[85vw] left-[28vw] w-[13vw] animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[33vw] md:left-[52vw] md:h-[4.94792vw] md:w-[6.875vw]"
+                alt={'Lộ trình ra mắt'}
+              />
+            </Link>
 
-            <Image
-              placeholder="empty"
-              src="/images/mapicon-3.png"
-              width={88}
-              height={121}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[104vw] left-[22vw] md:top-[44.5vw] md:left-[48.1vw] md:h-[6.30208vw] md:w-[4.58333vw]"
-              alt={'Lộ trình ra mắt'}
-            />
+            <Link href="/#" className="block">
+              <Image
+                placeholder="empty"
+                src="/images/mapicon-3.png"
+                width={88}
+                height={121}
+                className="absolute top-[104vw] left-[22vw] w-[9vw] animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[44.5vw] md:left-[48.1vw] md:h-[6.30208vw] md:w-[4.58333vw]"
+                alt={'Lộ trình ra mắt'}
+              />
+            </Link>
 
-            <Image
-              placeholder="empty"
-              src="/images/mapicon-4.png"
-              width={99}
-              height={91}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[118vw] left-[26vw] md:top-[51vw] md:left-[50.1vw] md:h-[5.15625vw] md:w-[4.73958vw]"
-              alt={'Lộ trình ra mắt'}
-            />
-            <Image
-              placeholder="empty"
-              src="/images/mapicon-5.png"
-              width={98}
-              height={150}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[107vw] left-[59vw] md:top-[45vw] md:left-[68.1vw] md:h-[7.8125vw] md:w-[5.10417vw]"
-              alt={'Lộ trình ra mắt'}
-            />
-            <Image
-              placeholder="empty"
-              src="/images/mapicon-6.png"
-              width={93}
-              height={103}
-              className="absolute animate-pulse transition-all animate-infinite hover:saturate-150 w-[9vw] top-[113vw] left-[82vw] md:top-[49.1vw] md:left-[81.1vw] md:h-[5.36458vw] md:w-[4.84375vw]"
-              alt={'Lộ trình ra mắt'}
-            />
+            <Link href="/#" className="block">
+              <Image
+                placeholder="empty"
+                src="/images/mapicon-4.png"
+                width={99}
+                height={91}
+                className="absolute top-[118vw] left-[26vw] w-[9vw] animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[51vw] md:left-[50.1vw] md:h-[5.15625vw] md:w-[4.73958vw]"
+                alt={'Lộ trình ra mắt'}
+              />
+            </Link>
+
+            <Link href="/#" className="block">
+              <Image
+                placeholder="empty"
+                src="/images/mapicon-5.png"
+                width={98}
+                height={150}
+                className="absolute top-[107vw] left-[59vw] w-[9vw] animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[45vw] md:left-[68.1vw] md:h-[7.8125vw] md:w-[5.10417vw]"
+                alt={'Lộ trình ra mắt'}
+              />
+            </Link>
+            <Link href="/#" className="block">
+              <Image
+                placeholder="empty"
+                src="/images/mapicon-6.png"
+                width={93}
+                height={103}
+                className="absolute top-[113vw] left-[82vw] w-[9vw] animate-pulse transition-all animate-infinite hover:saturate-150 md:top-[49.1vw] md:left-[81.1vw] md:h-[5.36458vw] md:w-[4.84375vw]"
+                alt={'Lộ trình ra mắt'}
+              />
+            </Link>
           </div>
         </section>
       </main>
